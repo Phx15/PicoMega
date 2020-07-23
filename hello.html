@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hot dogs == sandwiches?</title>
+
+    <style>
+        #loadButton {
+            margin-left: 13px;
+        }
+        
+        #saveLoadDiv {
+            margin-bottom: 5px;
+        }
+        
+        #buttons {
+            margin-top: 10px;
+            margin-left: 25px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1 id="hotDogOutput">Hot dog status:</h1>
+    <input type="textfield" id="latesHotDogStatus" />
+
+    <div id="buttons">
+        <div id="saveLoadDiv">
+            <button id="saveButton">Save</button>
+            <button id="loadButton">Load</button>
+        </div>
+        <div>
+            <button id="updateButton">Update</button>
+            <button id="deleteButton">Delete</button>
+        </div>
+    </div>
+
+
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+
+
+
+    <script src="./hello.js"></script>
+
+</body>
+
+</html>
