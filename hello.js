@@ -11,7 +11,7 @@ firebase.initializeApp({
 
 var firestore = firebase.firestore();
 
-
+//اي شي
 
 const docRef = firestore.doc("samples/sandwichData");
 const outputHeader = document.querySelector("#hotDogOutput");
@@ -26,7 +26,7 @@ const deleteButton = document.querySelector("#deleteButton")
 saveButton.addEventListener("click", function() {
     const textToSave = inputTextField.value;
     // It's Create New collection if not Exists
-    // t Delete the other Fields, so you NEED to use merge: true
+    //  Delete the other Fields, so you NEED to use merge: true
     docRef.set({
         hotDogStatus: textToSave
     }, { merge: true }).then(function() {
@@ -75,8 +75,6 @@ updateButton.addEventListener("click", function() {
         console.log("Got an Error: ", error)
     });
 });
-
-
 
 
 
