@@ -11,7 +11,7 @@ firebase.initializeApp({
 
 var firestore = firebase.firestore();
 
-//test git easy
+
 
 const docRef = firestore.doc("samples/sandwichData");
 const outputHeader = document.querySelector("#hotDogOutput");
