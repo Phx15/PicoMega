@@ -12,6 +12,7 @@ firebase.initializeApp({
 var firestore = firebase.firestore();
 
 //z
+//ddd
 const docRef = firestore.doc("samples/sandwichData");
 const outputHeader = document.querySelector("#hotDogOutput");
 const inputTextField = document.querySelector("#latesHotDogStatus");
