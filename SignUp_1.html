@@ -13,7 +13,7 @@
 <body class="d-xl-flex align-items-xl-center">
     <div id="div1" style="width: 33.3333%;"></div>
     <div id="div2" style="background: linear-gradient(45deg, rgba(255, 67, 141, 1) 0%, rgba(255, 169, 72, 1) 100%);border-radius: 28px;margin-top: 47px;height: 580px;padding-top: 0px;width: 33.3333%;">
-        <form style="text-align: center;padding: 0px;margin: 90px;padding-bottom: 0px;padding-top: 0px;margin-top: 25px;">
+        <div style="text-align: center;padding: 0px;margin: 90px;padding-bottom: 0px;padding-top: 0px;margin-top: 25px;">
             <h1 class="text-center" style="font-family: Amaranth, sans-serif;">Sign Up</h1>
 
             <label class="d-xl-flex justify-content-xl-start" style="margin-left: 15px;margin-right: 155px;width: 100px;" for="name">User Name:</label>
@@ -32,11 +32,38 @@
             <input class="form-control d-xl-flex justify-content-xl-center" type="text" id="confirmPassword" placeholder="Enter your Pasword" minlength="3" maxlength="50" name="" style="border-radius: 25px;background-color: rgb(214,209,209);filter: invert(0%);border: 2px solid rgb(181,181,181);font-size: 18px;">
 
             <button class="btn btn-lg" id="submit" type="submit" style="margin-top: 16px;width: 125px;background: radial-gradient(#44b35c 53%, #44b35c 63%);border-radius: 15px;font-size: 23px;font-family: Amaranth, sans-serif;">Submit</button>
-        </form>
+        </div>
     </div>
     <div id="div3" style="width: 33.3333%;"></div>
+
+
+
+
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+
+
+
+    <script src="./SignUp_1.js"></script>
+
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+
+
 </body>
 
 </html>

@@ -19,7 +19,7 @@ const inputTextField = document.querySelector("#latesHotDogStatus");
 const saveButton = document.querySelector("#saveButton");
 const loadButton = document.querySelector("#loadButton");
 const updateButton = document.querySelector("#updateButton");
-const deleteButton = document.querySelector("#deleteButton")
+const deleteButton = document.querySelector("#deleteButton");
 
 
 
