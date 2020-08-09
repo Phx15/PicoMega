@@ -3,42 +3,45 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignUp Page</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth">
+    <link rel="stylesheet" href="./SignUp_1.css">
+
+
+
+
 </head>
 
-<body class="d-xl-flex align-items-xl-center">
-    <div id="div1" style="width: 33.3333%;"></div>
-    <div id="div2" style="background: linear-gradient(45deg, rgba(255, 67, 141, 1) 0%, rgba(255, 169, 72, 1) 100%);border-radius: 28px;margin-top: 47px;height: auto;padding-top: 0px;width: 33.3333%;">
-        <div style="text-align: center; margin: 90px;margin-bottom: 30px;padding-bottom: 0px;padding-top: 0px;margin-top: 25px;">
-            <h1 class="text-center" style="font-family: Amaranth, sans-serif;">Sign Up</h1>
+<body>
 
-            <label class="d-xl-flex justify-content-xl-start" style="margin-left: 15px;margin-right: 155px;width: 100px;" for="name">User Name:</label>
-            <input class="form-control d-xl-flex justify-content-xl-center" type="text" id="userName" placeholder="Enter a unique User Name" minlength="3" maxlength="50" name="" style="border-radius: 25px;background-color: rgb(214,209,209);filter: invert(0%);border: 2px solid rgb(181,181,181);font-size: 18px;">
+    <div id="card">
+        <div id="form">
+            <h1 id="title">Sign Up</h1>
 
-            <label class="d-xl-flex justify-content-xl-start" style="margin-left: 15px;margin-right: 155px;width: 100px;text-align: left;">E-mail:</label>
-            <input class="form-control d-xl-flex justify-content-xl-center" type="text" id="eMail" placeholder="Enter your E-mail" minlength="3" maxlength="50" name="" style="border-radius: 25px;background-color: rgb(214,209,209);filter: invert(0%);border: 2px solid rgb(181,181,181);font-size: 18px;">
+            <label>User Name:</label>
+            <input type="text" id="userName" placeholder="Enter a unique User Name" minlength="3" maxlength="50">
 
-            <label class="d-xl-flex justify-content-xl-start" style="margin-left: 15px;margin-right: 155px;width: 100px;text-align: left;">Name:</label>
-            <input class="form-control d-xl-flex justify-content-xl-center" type="text" id="name" placeholder="Enter Your Name" minlength="3" maxlength="50" name="" style="border-radius: 25px;background-color: rgb(214,209,209);filter: invert(0%);border: 2px solid rgb(181,181,181);font-size: 18px;">
+            <label>E-mail:</label>
+            <input type="text" id="eMail" placeholder="Enter your E-mail" minlength="3" maxlength="50">
 
-            <label class="d-xl-flex justify-content-xl-start" style="margin-left: 15px;margin-right: 155px;width: 100px;text-align: left;">Password:</label>
-            <input class="form-control d-xl-flex justify-content-xl-center" type="text" id="password" placeholder="Enter your Pasword" minlength="3" maxlength="50" name="" style="border-radius: 25px;background-color: rgb(214,209,209);filter: invert(0%);border: 2px solid rgb(181,181,181);font-size: 18px;">
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name" minlength="3" maxlength="50">
 
-            <label class="d-xl-flex justify-content-xl-start" style="margin-left: 15px;margin-right: 120px;width: 137px;text-align: left;">Confirm Password:</label>
-            <input class="form-control d-xl-flex justify-content-xl-center" type="text" id="confirmPassword" placeholder="Enter your Pasword" minlength="3" maxlength="50" name="" style="border-radius: 25px;background-color: rgb(214,209,209);filter: invert(0%);border: 2px solid rgb(181,181,181);font-size: 18px;">
+            <label>Password:</label>
+            <input type="text" id="password" placeholder="Enter your Pasword" minlength="3" maxlength="50">
 
-            <p id="warnings" class="d-xl-flex justify-content-xl-start" style="margin-left: 15px;margin-right: 120px;width: 137px;margin-top: 10px;text-align: left;">
+            <label>Confirm Password:</label>
+            <input type="text" id="confirmPassword" placeholder="Enter your Pasword" minlength="3" maxlength="50">
 
-            </p>
 
-            <button class="btn btn-lg" id="submit" type="submit" style="margin-top: 16px;width: 125px;background: radial-gradient(#44b35c 53%, #44b35c 63%);border-radius: 15px;font-size: 23px;font-family: Amaranth, sans-serif;">Submit</button>
+
+            <button id="submit" type="submit">Submit</button>
         </div>
     </div>
-    <div id="div3" style="width: 33.3333%;"></div>
+
 
 
 
@@ -58,6 +61,7 @@
 
 
     <script src="./SignUp_1.js"></script>
+
 
 
     <script src="assets/js/jquery.min.js"></script>
