@@ -1,6 +1,4 @@
-/* MEDIA QUERY FOR IPAD LANDSCAPTE  */
-
-@media (min-width: 980px) {
+@media (-webkit-min-device-pixel-ratio: 1) {
     #card {
         background: linear-gradient(45deg, rgba(255, 67, 141, 1) 0%, rgba(255, 169, 72, 1) 100%);
         border-radius: 28px;
@@ -45,36 +43,29 @@
     }
 }
 
-
-/* MEDIA QUERY FOR IPAD PORTRAIT */
-
-@media (min-width: 768px) and (max-width: 979px) {}
-
-
-/* MEDIA QUERY FOR ALL MOBILE DEVICES : HAVING LESS THAN 767 RESOLUTION */
-
-@media (max-width: 767px) {
+@media (-webkit-min-device-pixel-ratio: 2) {
     #card {
-        background: linear-gradient(45deg, rgba(255, 67, 141, 1) 0%, rgba(255, 169, 72, 1) 100%);
+        background: linear-gradient(45deg, rgb(129, 31, 209) 0%, rgba(255, 169, 72, 1) 100%);
         border-radius: 28px;
         margin-top: 47px;
-        margin-left: 5%;
+        margin-left: 10%;
         height: auto;
         padding-top: 0px;
-        width: 90%;
+        width: 80%;
     }
     #form {
         text-align: center;
         font-family: Amaranth, sans-serif;
+        margin: 90px;
         margin-bottom: 30px;
         padding-bottom: 0px;
         padding-top: 0px;
         margin-top: 25px;
     }
     #submit {
-        margin-top: 16px;
-        width: 137px;
-        margin-bottom: 10px;
+        margin-top: 20px;
+        width: 180px;
+        margin-bottom: 30px;
         background: rgb(2, 165, 84);
         border: solid #44b35c;
         border-radius: 15px;
@@ -97,7 +88,46 @@
     }
 }
 
-
-/* MEDIA QUERY FOR EXTRA SMALL : IPHONE LANDSCAPE & PORTRAIT DEVICES */
-
-@media (max-width: 480px) {}
+@media (-webkit-min-device-pixel-ratio: 3) {
+    #card {
+        background: linear-gradient(45deg, rgb(89, 255, 67) 0%, rgba(255, 169, 72, 1) 100%);
+        border-radius: 28px;
+        margin-top: 47px;
+        margin-left: 5%;
+        padding-top: 0px;
+        width: 90%;
+    }
+    #form {
+        text-align: center;
+        font-family: Amaranth, sans-serif;
+        margin-bottom: 30px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-top: 25px;
+        margin-left: 13%;
+    }
+    #submit {
+        margin: 20px;
+        width: 180px;
+        margin-bottom: 30px;
+        background: rgb(2, 165, 84);
+        border: solid #44b35c;
+        border-radius: 15px;
+        font-size: 23px;
+        font-family: Amaranth, sans-serif;
+    }
+    label {
+        width: 140px;
+        text-align: left;
+        margin-right: 80px;
+    }
+    input {
+        width: 260px;
+        border-radius: 25px;
+        background-color: rgb(214, 209, 209);
+        filter: invert(0%);
+        border: 2px solid rgb(181, 181, 181);
+        font-size: 18px;
+        padding-left: 15px;
+    }
+}
